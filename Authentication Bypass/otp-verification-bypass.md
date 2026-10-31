@@ -2,7 +2,7 @@
 
 ## Affected URL
 
-Anonymized — target URL omitted.
+[Anonymized — target URL omitted](https://taskbear.com.au/).
 
 ## Description
 
