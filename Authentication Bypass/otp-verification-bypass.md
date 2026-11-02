@@ -107,13 +107,4 @@ Potential security implications include:
 1. Enforce OTP validation exclusively on the server side.
 2. Never rely on client-side response handling to determine verification status.
 3. Validate account verification state on every protected API endpoint.
-4. Create authenticated sessions only after successful server-side OTP verification.
-5. Enforce OTP expiration and single-use restrictions.
-6. Implement rate limiting for repeated OTP verification attempts.
-7. Test invalid, expired, replayed, and manipulated OTP scenarios.
-
-## Conclusion
-
-The assessment demonstrated that modifying the HTTP response associated with an invalid OTP caused the application to proceed to the dashboard.
-
-This indicates a weakness in the OTP verification flow. Further server-side validation is required to establish whether the behavior also results in unauthorized access to protected functionality.
+4. Implement rate limiting for repeated OTP verification attempts.
